@@ -40,3 +40,8 @@ classDiagram
     Iterator  <|--  Iterable: Creates
     Iterable <|.. Roulette: implements
 ```
+
+### Iteratorを使うメリットや使う場面
+
+- Rouletteの実装が配列からArrayListとかに変わっても、while内の呼び出し方を変えなくても良いこと
+- 
